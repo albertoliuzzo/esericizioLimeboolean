@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.sfondo{
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+  /* con posiotion riesco a centrare l'immagine, che nel caso dello schermo del pc in cui creo la pagina non cambia nulla, ma nel caso in cui guardassi la pagina dal cell, vedrei sullo schermo la parte centrale ed il browser taglierebbe i lati (di default la parte visibile è quella a sinistra e tutto il resto viene tagliato) */
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#box{
+    opacity: 0.5;
+    background-color: rgb(0,0,0);
+    width: 60%;
+    height: 85%;
+    position: absolute;
+    top:5%;
+    left:20%;
+    border-radius: 20px;
+    background-size: cover;
+    padding: 20px;
+}
+
+#logo{
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top:13%;
+  left:45%;
+}
+
+h1{
+  position: absolute;
+  top:27%;
+  left:40%;
+  font-size: 27px;
+  color: lime;
+  font-family: "Poppins", serif;
+}
+
+#boxnav{
+  background-color: lime;
+  background-size: cover;
+  width: 48%;
+  height: 5%;
+  position: absolute;
+  top:34%;
+  left:28%;
+  /* per allineare tutti gli elementi presenti all'interno di questo blocco, ovvero i tasti submit */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button{
+  margin-right: 5px;
+}
+
+.scelte{
+  font-size: 20px;
+  display: inline-block;
+}
+
+main{
+  position: absolute;
+  top:40%;
+  left:28%;
+}
+
+section{
+  margin-bottom: 35px;
+}
+
+h2{
+  margin: 0px;
+}
+
+.font{
+  font-family: "Poppins", serif;
+  color: white;
+}
+
+#statocarica1, #statocarica2, #statocarica3{
+  opacity: 0.7;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#statocarica1{
+  background-color: orange;
+  width: 90%;
+  height: 8%;
+}
+
+#statocarica2{
+  background-color: lime;
+  width: 200%;
+  height: 8%;
+}
+
+#statocarica3{
+  background-color: red;
+  width: 50%;
+  height: 8%;
+}
